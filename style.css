@@ -29,3 +29,16 @@ span{
 .d, .so, .to{
     border-color: #8F8F8F;
 }
+
+@media only screen and (max-width: 600px) {
+    span {
+        width: 1.5rem;
+        border: 10px solid #714B67;
+    }
+
+    .line {
+        width: 7px;
+        height: 29px;
+        margin: 0 1px 30px -8px;
+    }
+}
